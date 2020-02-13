@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="">
+        <fieldset>
+            <label for="pointOfInterest">Point of Interest:</label><br>
+            <input type="text" id="pointOfInterest" name="pointOfInterest"><br>
+        </fieldset>
+        <fieldset>
+            <label for="description">Description:</label><br>
+            <input type="text" id="description" name="description"><br>
+        </fieldset>
+        <fieldset>
+            <label for="cost">Cost:</label><br>
+            <input type="text" id="cost" name="cost"><br>
+        </fieldset>
+        <fieldset>
+            <label for="location">Location</label>
+            <select name="location" id="location">
+                <option value="italy">Italy</option>
+                <option value="switzerland">Switzerland</option>
+                <option value="france">France</option>
+            </select>
+        </fieldset>
+        <br>
+        <input type="submit" value="Submit" id="submit">
+    </form>
+    
+    <article class="entryLog">
+    </article>
+    <script type="module" src="main.js"> </script>
+    <script type="module" src="dataDOM.js"> </script>
+    <script type="module" src="dataEntryComponent.js"> </script>
+    <script type="module" src="saveTravelData.js"> </script>
+    <script type="module" src="travelData.js"> </script>
+</body>
+
+</html>
