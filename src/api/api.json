@@ -1,20 +1,42 @@
 {
-    "places": [
-      { 
-        "id": 1, 
-        "name": "Italy", 
-        "visa_required": false 
-      },
-      { 
-        "id": 2, 
-        "name": "Switzerland", 
-        "visa_required": true 
-      },
-      { 
-        "id": 3, 
-        "name": "France", 
-        "visa_required": false
-      }
-    ],
-    "interests": []
-  }
+  "places": [
+    {
+      "id": 1,
+      "name": "Italy",
+      "visa_required": false
+    },
+    {
+      "id": 2,
+      "name": "Switzerland",
+      "visa_required": true
+    },
+    {
+      "id": 3,
+      "name": "France",
+      "visa_required": false
+    }
+  ],
+  "interests": [
+    {
+      "pointOfInterest": "baguette store",
+      "description": "the best baguettes in the country",
+      "cost": "125.00",
+      "location": "france",
+      "id": 1
+    },
+    {
+      "pointOfInterest": "Coliseum ",
+      "description": "ancient ruins",
+      "cost": "100.00",
+      "location": "Italy",
+      "id": 2
+    },
+    {
+      "pointOfInterest": "Swiss Alps",
+      "description": "for skiing, duh!",
+      "cost": "200.00",
+      "location": "Switzerland",
+      "id": 3
+    }
+  ]
+}

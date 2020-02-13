@@ -1,5 +1,4 @@
 import makeDataEntryComponent from "./dataEntryComponent.js"
-
 const renderTravelData = (submissions) => {
    
     const loggedDataContainer = document.querySelector(".entryLog");
@@ -9,7 +8,7 @@ const renderTravelData = (submissions) => {
 
     for (let i = 0; i < submissions.length; i++) {
         const userInput = submissions[i]
-        loggedDataContainer.innerHTML += makeDataComponent(userInput)
+        loggedDataContainer.innerHTML += makeDataEntryComponent(userInput)
     }
 
 
